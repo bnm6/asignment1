@@ -28,3 +28,17 @@
     margin: 0px;
     color: #0f0f0f;
 }
+
+.paragraph {
+    font-size: 85%;
+    margin: 0px;
+    padding: 10px 10px 10px 10px;
+    color: #0f0f0f;
+}
+
+.corporateparagraph {
+    font-size: 85%;
+    margin: 0px;
+    padding: 30px 30px 0px 30px;
+    color: #0f0f0f;
+}
