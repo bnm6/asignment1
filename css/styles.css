@@ -51,3 +51,10 @@ body {
 .navbar-dark {
     background-color: #512DA8;
 }
+
+.headertwo {
+    font-size: 160%;
+    margin: 0px 60px;
+    padding: 10px 10px 10px 10px;
+    color: #0f0f0f;
+}
