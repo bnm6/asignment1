@@ -100,3 +100,18 @@ body{
     bottom: 0px;
     z-index: 1;
 }
+
+.modal {
+    .close {
+        color: $background-light;
+    }
+    .modal-content {
+        background-color: $background-pale;
+        
+    }
+    .modal-header {
+        color: floralwhite;
+        margin: $background-dark; 
+        background-color: $background-dark;
+    }
+}

@@ -31,9 +31,8 @@
                     <li class="nav-item"><a class="nav-link" href="index.html"><span class="fa fa-list fa-lg"></span> Menu</a></li>
                     <li class="nav-item"><a class="nav-link" href="./contactus.html"><span class="fa fa-address-card fa-lg"></span> Contact</a></li>
                 </ul>
-                <span class="navbar-text">
-                    <a data-toggle="modal" data-target="#loginModal">
-                    <span class="fa fa-sign-in"></span> Login</a>
+                <span id="loginJSTrigger" class="navbar-text">
+                    <a> <span class="fa fa-sign-in"> </span> Login</a>
                 </span>
             </div>
         </div>
@@ -87,8 +86,7 @@
                     <img src="img/logo.png" class="img-fluid">
                 </div>
                 <div class="col-sm-3 align-self-center">
-                    <a data-toggle="modal" data-target="#reserveModal" role="button" class="btn btn-block nav-link btn-warning"
-                    data-placement="bottom">Reserve Table</a>
+                    <a id="reserveJSTrigger" role="button" class="btn btn-block nav-link btn-warning">Reserve Table</a>
                 </div>
             </div>
         </div>
@@ -338,6 +336,16 @@
                     $("#carousel-button-icon").addClass('fa-pause');   //**            
                 }
             });
+            // login-button's JS
+            $("#loginJSTrigger").click( function(){  
+                $('#loginModal').modal('show'); 
+             } );
+
+             //table reservation JS
+             $("#reserveJSTrigger").click( function(){  
+                $('#reserveModal').modal('show'); 
+             } );
+
         });
     </script>
 </body>
